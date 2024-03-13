@@ -4,7 +4,7 @@ My learning notes with Manjaro Linux
 ## configuration
 
 ## pacman packages
-> pacman -S git dkms wireless_tools keepassxc bitwarden
+> pacman -S git dkms wireless_tools keepassxc bitwarden yay
 
 ## some AUR
 > yay -S icaclient
@@ -22,7 +22,7 @@ My learning notes with Manjaro Linux
 ### for plasma5/KDE
 > pacman -S fcitx5-table-extra fcitx5-configtool
 
-Go to System Settings > Virtual Keyboard, select "Fcitx 5"
+Go to System Settings > Input Devices > Virtual Keyboard, select "Fcitx 5"
 
 Go to System Settings > Region & Language > Input Method, add "Quick Classic"
 
