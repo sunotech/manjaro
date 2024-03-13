@@ -3,12 +3,18 @@ My learning notes with Manjaro Linux
 
 ## configuration
 
-## basic packages
+## pacman packages
+> pacman -S git dkms wireless_tools keepassxc bitwarden
 
 ## some AUR
 > yay -S icaclient
 
 > yay -S zoom-citrix-plugin
+
+## for laptop power saving
+> pacman -S tlp
+
+> systemctl enable tlp --now
 
 ## chinese input method
 > pacman -S fcitx5 fcitx5-qt fcitx5-gtk
