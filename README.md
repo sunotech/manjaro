@@ -29,4 +29,8 @@ Add
 
 ## tweaking Citrix icaclient for XenDesktop
 
+## network/wifi
+For MacBookAir6,2 with Broadcom BCM4360 802.11ac Dual Band Wireless Network Adapter
+> sudo pacman -S broadcom-wl
+
 ## references
