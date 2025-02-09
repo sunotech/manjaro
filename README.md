@@ -4,23 +4,32 @@ My learning notes with Manjaro Linux
 ## configuration
 
 ## pacman packages
-> pacman -S git dkms wireless_tools keepassxc bitwarden yay
+
+```bash
+pacman -S git dkms wireless_tools keepassxc bitwarden yay
+```
 
 ## some AUR
-> yay -S icaclient
-
-> yay -S zoom-citrix-plugin
+```bash
+yay -S icaclient
+yay -S zoom-citrix-plugin
+```
 
 ## for laptop power saving
-> pacman -S tlp
-
-> systemctl enable tlp --now
+```bash
+pacman -S tlp
+systemctl enable tlp --now
+```
 
 ## chinese input method
-> pacman -S fcitx5 fcitx5-qt fcitx5-gtk
+```bash
+pacman -S fcitx5 fcitx5-qt fcitx5-gtk
+```
 
 ### for plasma5/KDE
-> pacman -S fcitx5-table-extra fcitx5-configtool
+```bash
+pacman -S fcitx5-table-extra fcitx5-configtool
+```
 
 Go to System Settings > Input Devices > Virtual Keyboard, select "Fcitx 5"
 
@@ -30,13 +39,17 @@ Open
 > ~/.xprofile
 
 Add
-> XMODIFIERS=@im=fcitx
+```bash
+XMODIFIERS=@im=fcitx
+```
 
 
 ## tweaking Citrix icaclient for XenDesktop
 
 ## network/wifi
 For MacBookAir6,2 with Broadcom BCM4360 802.11ac Dual Band Wireless Network Adapter
-> sudo pacman -S broadcom-wl
+```bash
+sudo pacman -S broadcom-wl
+```
 
 ## references
